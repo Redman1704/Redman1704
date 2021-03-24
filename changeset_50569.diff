@@ -1,0 +1,27 @@
+Index: /trunk/src/wp-admin/css/login.css
+===================================================================
+--- /trunk/src/wp-admin/css/login.css	(revision 50568)
++++ /trunk/src/wp-admin/css/login.css	(revision 50569)
+@@ -132,5 +132,5 @@
+ 	margin-top: 20px;
+ 	margin-left: 0;
+-	padding: 26px 24px 46px;
++	padding: 26px 24px 34px;
+ 	font-weight: 400;
+ 	overflow: hidden;
+@@ -187,6 +187,13 @@
+ }
+ 
+-.login .button-primary {
+-	float: right;
++.login .reset-pass-submit {
++	display: flex;
++	flex-flow: row wrap;
++	justify-content: space-between;
++}
++
++.login .reset-pass-submit .button {
++	display: inline-block;
++	margin-bottom: 6px;
+ }
+ 
